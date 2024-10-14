@@ -15,28 +15,19 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="navbar-elements">
-            <div class="logo"><a href="main.html">BlogBurst</a></div>
-            <ul class="navbar-nav">
-                <li class="navbar-list">
-                    <a class="nav-item" href="main.html">Home</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="#">About</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="#">Post</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="ContactUs.html">Contact Us</a>
-                </li>
-                <li class="navbar-list">
-                    <a href="Gallery.html">Gallery</a>
-                </li>
-            </ul>
+    <header class="header">
+        <a href="main.html" id="logo"><span>BlogBurst</span></a>
+        <ul class="navbar" id="menuList">
+            <li class="nav-list"><a href="main.html">Home</a></li>
+            <li class="nav-list"><a href="gallery.html">Gallery</a></li>
+            <li class="nav-list"><a href="#">Post</a></li>
+            <li class="nav-list"><a href="#">About</a></li>
+            <li class="nav-list"><a href="ContactUs.html">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class='bx bx-menu' onclick="toggleMenu()"></i>
         </div>
-    </nav>
+    </header>
     <main class="main">
         <div class="main-heading">
             <h2 id="bg-heading">Get In Touch</h2>
