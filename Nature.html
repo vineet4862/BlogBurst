@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature</title>
     <link rel="icon" href="Assets/Images/Icon.png" type="image/svg+xml">
-    <link rel="stylesheet" href="/Assets/Css/Nature.css">
+    <link rel="stylesheet" href="/Css/Nature.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,28 +16,18 @@
 </head>
 
 <body>
-    <header>
-        <a href="main.html" class="logo"><span>BlogBurst</span></a>
-        <nav class="navbar">
-            <ul class="navbar-nav">
-                <li class="navbar-list">
-                    <a class="nav-item" href="main.html">Home</a>
-                </li>
-
-                <li class="navbar-list">
-                    <a class="nav-item" href="Gallery.html">Gallery</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="#">Post</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="#">About</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="ContactUs.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="header">
+        <a href="index.html" id="logo"><span>BlogBurst</span></a>
+        <ul class="navbar" id="menuList">
+            <li class="nav-list"><a href="index.html">Home</a></li>
+            <li class="nav-list"><a href="Gallery.html">Gallery</a></li>
+            <li class="nav-list"><a href="#">Post</a></li>
+            <li class="nav-list"><a href="#">About</a></li>
+            <li class="nav-list"><a href="ContactUs.html">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class='bx bx-menu' onclick="toggleMenu()"></i>
+        </div>
     </header>
     <div class="main">
         <div class="main-content">
