@@ -269,7 +269,7 @@ textarea{
   .main{
     width: 100%;
     background-color: white;
-    background-image: url(/Images/contact.jpg);
+    background-image: url(/Images/Fitness.jpg);
     background-size: 100vw;
     grid-template-columns: 44% 55%;
   }
@@ -404,7 +404,7 @@ textarea{
 
   .main-form .form .form-elements{
     width: 85%;
-    padding: 10px 10px 15px 6px;
+    padding: 10px 10px 22px 6px;
     position: relative;
     font-size: 15px;
     margin-bottom: 10px;
