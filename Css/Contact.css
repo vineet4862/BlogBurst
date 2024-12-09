@@ -69,7 +69,7 @@
 .main {
     width: 100%;
     background-color: white;
-    background-image: url(/BlogBurst/Images/contact.jpg);
+    background-image: url(/Images/contact.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
     display: grid;
@@ -171,26 +171,6 @@ textarea{
     margin-top: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer elements to be  stytled under this */
 .footer-elements {
     background-color: rgb(3, 7, 61);
@@ -225,6 +205,10 @@ textarea{
     text-shadow: rgb(167, 183, 108) 5px 2px 8px;
   }
 
+  .footer-element-phone{
+    display: none;
+  }
+
 .footer-element-2 {
     width: 100%;
     text-align: center;
@@ -241,3 +225,144 @@ textarea{
 .footer-matter p {
     padding: 30px 100px;
 }
+
+/* Styling navbar for the mobile phone screen */
+
+@media (max-width: 600px){
+  #logo{
+    font-size: 2rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(3, 7, 61);
+    gap: 0;
+    padding-right: 5rem;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .navbar .nav-list {
+    padding: 1rem;
+    position: relative;
+    left: 1.7rem;
+  }
+
+  .navbar .nav-list a:hover,
+  .nav-list a:active {
+    text-shadow: rgb(167, 183, 108) 5px 2px 8px;
+  }
+
+  .menu-icon{
+    display: block;
+    z-index: 1000;
+  }
+
+  #menuList{
+    transition: all 0.5s;
+  }
+
+  .main{
+    background-size: 100vw;
+    grid-template-columns: 44% 55%;
+  }
+
+  .main .main-heading h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: start;
+    position: relative;
+    padding: 22px 65px 20px 60px;
+  }
+
+  .main .main-heading .main-head{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: start;
+    position: relative;
+    padding: 24px 0px 20px 24px;
+  }
+
+  .main .main-heading .main-sub{
+    display: none;
+  }
+
+
+  .main .form{
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    left: 3rem;
+    border-radius: 1px;
+  }
+
+  .main-form .form .form-elements{
+    width: 70%;
+    padding: 15px 15px 20px 15px;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgb(90, 84, 84) 1px 0 10px;
+  }
+
+  #name{
+    border-style: none;
+    padding-top: 2px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid black;
+    box-shadow: rgb(90, 84, 84) 1px 0 10px;;
+  }
+
+  #email{
+    border-style: none;
+    padding-top: 2px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+    box-shadow: rgb(90, 84, 84) 1px 0 10px;
+}
+
+#phone{
+    border-style: none;
+    padding-top: 2px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+    box-shadow: rgb(90, 84, 84) 1px 0 10px;
+}
+
+textarea{
+    width: 180px;
+    height: 60px;
+    margin-top: 3px;
+    border-style: 1px solid black;
+    box-shadow: rgb(90, 84, 84) 1px 0 10px;
+}
+
+
+#submit{
+    border: 2px solid black;
+    box-shadow: rgb(90, 84, 84) 1px 0 10px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.footer-element-1{
+  display: none;
+  }
+
+  .footer-element-phone{
+    display: inline-flex;
+    font-size: 2rem;
+    padding: 1.5rem 0rem;
+    gap: 2rem
+    ;
+  }
+}
+
+
