@@ -60,21 +60,20 @@
   }
 
   .main .main-elements .main-element-1{
-    display: flex;
-    width: 100vw;
-    height: 20vh;
+    display: flex; 
+    width: 100%;
     background-color: rgb(3, 7, 61);
     color: white;
     justify-content: center; 
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
   }
 
   .main-heading{
     position: relative;
-    top: 7rem;
-    font-size: 2rem;
-    font-weight: 300;
-    
+    top: 3rem;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: Rubik Dirt;
   }
 
   .main-element-2{
@@ -83,8 +82,27 @@
   }
 
   #about-image{
-    width: 40vw;
+    width: 28vw;
+    position: relative;
+    bottom: 3rem;
+    box-shadow: 0px 0px 20px rgb(221, 222, 216); 
   }
+
+  .main-element-3{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 0rem 19rem 2rem 19rem;
+    flex-direction: column;
+  }
+  
+  .About-para{
+    padding-bottom: 1rem;
+    font-family: Amita;
+    font-weight: 1000;
+    font-size: 1.1rem;
+  }
+
 
 
 
