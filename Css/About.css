@@ -250,23 +250,41 @@
     gap: 2rem;
   }
 
+  .footer-element-2 {
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+  .footer-element-2 h3 {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+  }
+
+  .footer-matter p{
+    display: none;
+  }
+
 }
 
-@media (max-width: 450px){
-  .main-element-1{
+@media (max-width: 450px) {
+  .main-element-1 {
     padding-bottom: 4rem;
   }
 
-  .main-heading{
-    top: 1rem ;
+  .main-heading {
+    top: 1rem;
   }
-  
-  #about-image{
+
+  #about-image {
     width: 50%;
     bottom: 2rem;
   }
 
-  .main-element-3{
+  .main-element-3 {
     padding: 0rem 2rem 0.5rem 2rem;
   }
 }
