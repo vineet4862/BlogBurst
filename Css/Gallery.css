@@ -101,6 +101,25 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.overlay {
+  position: fixed;
+  top: 10rem;
+  left: 3rem;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.2); /* 20% transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.overlay .image-set-1 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
 
 /* Footer sectoin styling. */
 
