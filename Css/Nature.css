@@ -63,112 +63,46 @@
   }
   
   /* Main Section Css */
-  .main {
-      width: 100%;
-      background-color: white;
-      background-image: url(/Assets/Images/contact.jpg);
-      background-size: 100vw;
-      background-repeat: no-repeat;
-      display: grid;
-      grid-template-columns: 65% 35%;
-  
+  .main{
+      display: flex;
   }
   
-  .main .main-heading {
+  
+  .main-content .main-elements .element-1{
+      display: inline-block;
+      width: 100%;
+      
+  }
+  
+  
+  .element-1 .Nature{
       width: 100%;
       text-align: center;
+      margin-top: 15px;
+  }
+  
+  #pic1{
+      width: 70%;
+      height: 80vh;
+      border-radius: 0.3em;
+  }
+  
+  .element-1 .para-1{
+      text-align: center;
+      position: relative;
+      bottom: 32px;
+      word-spacing: 2px;
+      font-weight: 400;
       color: white;
   }
   
-  .main .main-heading h2 {
-      font-family: caveat;
-      font-size: 60px;
-      font-weight: 700;
-      text-align: start;
+  
+  .main-elements .element-2 h2{
       position: relative;
-      padding: 90px 0px 40px 290px;
-  }
-  
-  .main .main-heading .main-head {
-      font-size: 45px;
-      font-weight: 500;
-      text-align: start;
-      font-family: caveat;
-      padding: 0px 0px 50px 120px;
-  }
-  
-  .main .main-heading .main-sub {
-      font-size: 30px;
+      text-align: center;
       font-weight: 400;
-      text-align: start;
-      font-family: caveat;
-      padding: 0px 0px 10px 40px;
-      width: 50%;
+      font-size: 50px;
   }
-  
-  
-  .main-form .form {
-      width: 100%;
-      color: rgb(77, 75, 75);
-      border-radius: 2px;
-      text-align: center;
-      padding-top: 120px;
-  }
-  
-  .main-form .form .form-elements {
-      width: 80%;
-      padding: 50px 70px 50px 70px;
-      position: relative;
-      background-color: white;
-      font-size: 30px;
-      font-family: Libre Baskerville;
-      text-align: center;
-      margin-bottom: 30px;
-      box-shadow: rgb(90, 84, 84) 1px 0 10px;
-  }
-  
-  #name{
-      border-style: none;
-      padding-top: 10px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid black;
-      box-shadow: rgb(90, 84, 84) 1px 0 10px;
-  }
-  
-  #email{
-      border-style: none;
-      padding-top: 10px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid black;
-      box-shadow: rgb(90, 84, 84) 1px 0 10px;
-  }
-  
-  #phone{
-      border-style: none;
-      padding-top: 10px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid black;
-      box-shadow: rgb(90, 84, 84) 1px 0 10px;
-  }
-  
-  textarea{
-      width: 300px;
-      height: 100px;
-      border-style: 1px solid black;
-      box-shadow: rgb(90, 84, 84) 1px 0 10px;
-  }
-  
-  
-  #submit{
-      border: 2px solid black;
-      box-shadow: rgb(90, 84, 84) 1px 0 10px;
-      padding: 5px 10px 5px 10px;
-      font-weight: 800;
-      font-size: 20px;
-      margin-top: 50px;
-  }
-  
-
   
   
   

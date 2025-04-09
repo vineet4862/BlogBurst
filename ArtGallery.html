@@ -15,30 +15,20 @@
 </head>
 
 <body>
-    <header>
-        <a href="main.html" class="logo"><span>BlogBurst</span></a>
-        <nav class="navbar">
-            <ul class="navbar-nav">
-                <li class="navbar-list">
-                    <a class="nav-item" href="main.html">Home</a>
-                </li>
-
-                <li class="navbar-list">
-                    <a class="nav-item" href="Gallery.html">Gallery</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="#">Post</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="About.html">About</a>
-                </li>
-                <li class="navbar-list">
-                    <a class="nav-item" href="ContactUs.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="header">
+        <a href="index.html" id="logo"><span>BlogBurst</span></a>
+        <ul class="navbar" id="menuList">
+            <li class="nav-list"><a href="index.html">Home</a></li>
+            <li class="nav-list"><a href="Gallery.html">Gallery</a></li>
+            <li class="nav-list"><a href="#">Post</a></li>
+            <li class="nav-list"><a href="About.html">About</a></li>
+            <li class="nav-list"><a href="ContactUs.html">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class='bx bx-menu' onclick="toggleMenu()"></i>
+        </div>
     </header>
-</body>
+
 <div class="main">
     <div class="main-content">
         <div class="main-elements">
@@ -100,5 +90,5 @@
         </div>
     </div>
 </footer>
-
+</body>
 </html>
